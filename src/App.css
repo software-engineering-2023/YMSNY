@@ -166,7 +166,7 @@ button:hover span::before {
 }
 
 button:hover {
-  color: white;
+  color: black;
 }
 
 button:active span::before {
@@ -209,4 +209,12 @@ height: 10rem;
   justify-content: center;
   gap: 3rem;
   padding-bottom: 2rem;
+}
+
+a{
+  margin-left: auto;
+}
+
+.problem{
+  background-color: transparent;
 }

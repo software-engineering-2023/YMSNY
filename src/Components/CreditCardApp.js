@@ -7,7 +7,6 @@ const CreditCardApp = () => {
     <div>
     <div 
         className="table-container">
-        <caption className="table-title">Transactions</caption>
         <Table responsive bordered hover size="sm" variant="light" className="my-table">
       <thead>
         <tr>

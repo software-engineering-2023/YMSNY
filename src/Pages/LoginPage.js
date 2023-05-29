@@ -8,7 +8,7 @@ import styled from "styled-components";
 import AdminPage from '../Pages/AdminPage';
 import Client_Home from '../Pages/Client_Home';
 import BankerPage from '../Pages/BankerPage';
-
+import MyFooter from '../Components/MyFooter';
 const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -113,7 +113,7 @@ function LoginPage() {
         </div>
 
       </div>
-
+        <MyFooter/>
     </div>
   );
 }

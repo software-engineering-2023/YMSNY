@@ -5,6 +5,7 @@ import LoansList from "../Components/LoansList"
 import { useState } from "react"
 import { FaBell } from "react-icons/fa";
 import Navbar from "../Components/NavBar"
+import MyFooter from "../Components/MyFooter"
 
 const accounts = [
   {
@@ -59,8 +60,12 @@ const Client_Home = () => {
           <li>Notification 2</li>
           <li>Reminder 1</li>
           <li>Reminder 2  </li>
+          <li>Announcment 1  </li>
+          <li>Announcment 2  </li>
         </ul>
       </div>
+
+      <MyFooter/>
     </div>
 
   )

@@ -2,6 +2,7 @@ import CreditCard from "../Components/CreditCard"
 import Transactions from "../Components/Transactions"
 import { useState } from "react"
 import Navbar from "../Components/NavBar";
+import MyFooter from "../Components/MyFooter";
 const mycard = {
     cardNumber: 2314234145879023,
     cardHolder: "Salma Zaki",
@@ -59,6 +60,8 @@ const CreditCardPage = () => {
             </div>
 
             <button className="stolen"> Report Stolen</button>
+            <br/>
+            <MyFooter/>
         </div>
 
 

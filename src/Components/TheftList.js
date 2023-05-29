@@ -1,12 +1,13 @@
 
 import { Table } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const TheftList = () => {
+    const navigate = useNavigate();
     return (
         <div>
             <div
                 className="table-container">
-                <caption className="table-title">Credit Card Thefts Reports</caption>
                 <Table responsive bordered hover size="sm" variant="light" className="my-table">
                     <thead>
                         <tr>
@@ -22,7 +23,7 @@ const TheftList = () => {
                             <td>2/1/2023</td>
                             <td>123.OO EGP</td>
                             <td> <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-                                <button > View Card
+                                <button onClick={() => navigate("/Card")}> View Card
                                     <span></span>
                                 </button>
                             </div></td>
@@ -32,7 +33,7 @@ const TheftList = () => {
                             <td>6/3/2023</td>
                             <td>1000.00 EGP</td>
                             <td> <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-                                <button > View Card
+                                <button onClick={() => navigate("/Card")}> View Card
                                     <span></span>
                                 </button>
                             </div></td>
@@ -42,7 +43,7 @@ const TheftList = () => {
                             <td>15/4/2023</td>
                             <td>3548.56 EGP</td>
                             <td> <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-                                <button > View Card
+                                <button onClick={() => navigate("/Card")} > View Card
                                     <span></span>
                                 </button>
                             </div></td>
