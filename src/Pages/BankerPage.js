@@ -1,4 +1,5 @@
-import ApplicationsList from "./ApplicationsList"
+import ApplicationsList from "../Components/ApplicationsList"
+import TheftList from "../Components/TheftList";
 
 const BankerPage = ()=>{
     return(
@@ -12,10 +13,14 @@ const BankerPage = ()=>{
             <h1 style={{textAlign : "center"}}> <b> Reports </b></h1>
             <br/>
             <ApplicationsList/>
+            <br/>
+            <TheftList/>
             <h1 style={{textAlign : "center"}}> Send announcment : </h1>
             <textarea>
             </textarea>   
             <button> Send </button>
+
+
         </div>
 
     )

@@ -172,3 +172,13 @@ button:hover {
 button:active span::before {
   background: #2751cd;
 }
+
+.loan{
+  width : 14.3rem;
+  height: 15rem;
+  border :3px;
+  border-style:solid;
+  text-align: center;
+  margin: auto;
+  padding: 6rem 0;
+}
