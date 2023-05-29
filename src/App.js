@@ -32,11 +32,13 @@ function App() {
   return (
     
      <div>
-      <LoginPage/>
       <Routes>
-        <Route path='Client' element = {<Client_Home/>}/>
-        <Route path='Banker' element = {<BankerPage/>}/>
-        <Route path='Admin' element = {<AdminPage/>}/>
+        <Route path="/" element = {<LoginPage/>}></Route>
+        <Route path="/Client" element = {<Client_Home/>}/>
+        <Route path="/Banker" element = {<BankerPage/>}/>
+        <Route path="/Admin" element = {<AdminPage/>}/>
+        <Route path="/BankAccount" element = {<BankAccountPage/>}/>
+        <Route path="/Card" element = {<CreditCardPage/>}/>
         </Routes>
     </div>
   );

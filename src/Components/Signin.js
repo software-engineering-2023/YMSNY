@@ -47,10 +47,10 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const SignInForm = ({handleSubmit}) => {
+const SignInForm = (handleSubmit) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const handleClick= email =>{
+  const handleClick= () =>{
     handleSubmit(email);
   }
   return (

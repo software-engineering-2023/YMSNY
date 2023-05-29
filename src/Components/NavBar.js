@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import styled from "styled-components";
 
 const NavbarContainer = styled.nav`
@@ -10,6 +10,7 @@ const NavbarContainer = styled.nav`
   color: #fff;
   padding: 0 2rem;
   width:100%;
+  
 `;
 
 
@@ -35,7 +36,7 @@ const Link = styled.a`
 
 const Navbar = () => {
   return (
-    <div>
+    <div style={{paddingBottom : "4rem"}}>
     <NavbarContainer>
       <Logo src="/Images/Logo.png" alt="Bank Logo" />
       <LinksContainer>

@@ -182,3 +182,31 @@ button:active span::before {
   margin: auto;
   padding: 6rem 0;
 }
+
+.textArea{
+  width: 20rem;
+margin: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 10rem;
+}
+
+.stolen{
+  background: red;
+  color: black;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.transfer{
+  margin: auto;
+  text-align: center;
+}
+
+.radioButtons{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-bottom: 2rem;
+}

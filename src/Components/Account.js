@@ -1,7 +1,9 @@
 import { Card, Button } from "react-bootstrap"
+import { useNavigate } from "react-router-dom"
 
 
 const Account = (props) => {
+    const navigate = useNavigate();
     return (
         <Card style={{ height: "350px", width: "15rem" }}>
             <Card.Body>
@@ -12,7 +14,7 @@ const Account = (props) => {
                 <Card.Subtitle className="mb-4">Bank Account Holder: {props.name}</Card.Subtitle>
                 <Card.Subtitle className="mb-4">Type: {props.type}</Card.Subtitle>
                 <Card.Subtitle className="mb-4">Bank Account Balance: {props.balance}</Card.Subtitle>
-                <Button variant="primary">View </Button>
+                <Button variant="primary" onClick={()=>navigate("/BankAccount")}>View </Button>
                 <Button variant="danger" style={{ marginLeft: "3rem" }}> Close</Button>
             </Card.Body>
         </Card>

@@ -49,12 +49,6 @@ const AddAccount = () => {
                         <br />
                         <br />
                         <label>
-                            Bank Account:
-                            <input type="text" value={bankAccount} onChange={(event) => setBankAccount(event.target.value)} />
-                        </label>
-                        <br />
-                        <br />
-                        <label>
                             Type:
                             <select value={type} onChange={(event) => setType(event.target.value)}>
                                 <option value="">--Please choose an option--</option>

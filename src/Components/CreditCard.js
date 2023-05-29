@@ -13,7 +13,7 @@ function CreditCard({props}) {
             <Card.Subtitle className="mb-4">Expiration Date: {props.expirationDate}</Card.Subtitle>
             <Card.Subtitle className="mb-4">Card Balance: {props.cardBalance}</Card.Subtitle>
             <Card.Subtitle className="mb-4">Card Limit: {props.cardLimit}</Card.Subtitle>
-            <Card.Subtitle className="mb-4">Points : {props.cardLimit}</Card.Subtitle>
+            <Card.Subtitle className="mb-4">Points : {props.points}</Card.Subtitle>
         </Card.Body>
         </Card>
     </div>
