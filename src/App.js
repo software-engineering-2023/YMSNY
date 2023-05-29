@@ -7,7 +7,12 @@ import Client_Home from './Pages/Client_Home';
 import BankAccountPage from './Pages/BankAccountPage';
 import TheftList from './Components/TheftList';
 import CreditCardPage from './Pages/CreditCardPage';
-
+import Signin from './Components/Signin';
+import Register from './Components/Register';
+import NavBar from './Components/NavBar';
+import { Route, Routes } from 'react-router-dom';
+import AdminPage from './Pages/AdminPage';
+import LoginPage from './Pages/LoginPage';
 const accounts = [
   {
     id : 1
@@ -23,13 +28,16 @@ const accounts = [
   }
 ]
 function App() {
+
   return (
-    <div>
-      <BankAccountPage/>
-      <Client_Home/>
-      <CreditCardPage />
-      <BankerPage/>
     
+     <div>
+      <LoginPage/>
+      <Routes>
+        <Route path='Client' element = {<Client_Home/>}/>
+        <Route path='Banker' element = {<BankerPage/>}/>
+        <Route path='Admin' element = {<AdminPage/>}/>
+        </Routes>
     </div>
   );
 }
