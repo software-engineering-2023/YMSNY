@@ -2,11 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import ApplicationsList from './Components/ApplicationsList';
 import BankerPage from './Components/BankerPage';
-import Transactions from './Components/Transactions';
+import Bills from './Components/Bills';
+
 
 function App() {
   return (
-    <BankerPage/>
+    <div>
+    <Bills/>
+    
+    </div>
   );
 }
 
