@@ -1,0 +1,31 @@
+.my-table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  .my-table th,
+  .my-table td {
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table-container {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+  
+  .table-title {
+    font-size: 2em;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
